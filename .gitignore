@@ -1,0 +1,63 @@
+```gitignore id="f0v2e1"
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+.venv/
+venv/
+env/
+
+# Environment Variables
+.env
+
+# Streamlit
+.streamlit/secrets.toml
+
+# VS Code
+.vscode/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Build Files
+build/
+dist/
+*.egg-info/
+
+# Cache
+.cache/
+.pytest_cache/
+.mypy_cache/
+
+# LangChain / AI
+*.sqlite3
+chroma/
+faiss_index/
+
+# Node (if added later)
+node_modules/
+
+# Temporary Files
+temp/
+tmp/
+
+# Coverage
+.coverage
+htmlcov/
+
+# Streamlit Cache
+.streamlit/cache/
+
+# Misc
+*.swp
+*.swo
+```
